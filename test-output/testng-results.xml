@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="25944" started-at="2020-06-28T00:53:01Z" finished-at="2020-06-28T00:53:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="25944" started-at="2020-06-28T00:53:01Z" finished-at="2020-06-28T00:53:27Z">
+      <class name="com.phptravel.qa.testcases.HomepageTestcase">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.phptravel.qa.testcases.HomepageTestcase@5d5eef3d]" name="setup" is-config="true" duration-ms="12980" started-at="2020-06-28T06:23:01Z" finished-at="2020-06-28T06:23:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="title()[pri:0, instance:com.phptravel.qa.testcases.HomepageTestcase@5d5eef3d]" name="title" duration-ms="11522" started-at="2020-06-28T06:23:14Z" finished-at="2020-06-28T06:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.phptravel.qa.testcases.HomepageTestcase@5d5eef3d]" name="tearDown" is-config="true" duration-ms="1419" started-at="2020-06-28T06:23:26Z" finished-at="2020-06-28T06:23:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=title status=SUCCESS method=HomepageTestcase.title()[pri:0, instance:com.phptravel.qa.testcases.HomepageTestcase@5d5eef3d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.phptravel.qa.testcases.HomepageTestcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
